@@ -157,12 +157,12 @@ document.addEventListener('DOMContentLoaded', function() {
     ScrollTrigger.create({
       trigger: '.ultra-gear-feature',
       start: 'top bottom', // 섹션의 상단이 화면 하단에 닿을 때
-      onEnter: () => {
-        featureVideo.play();
-      },
-      onLeaveBack: () => {
-        featureVideo.pause();
-      }
+      // onEnter: () => {
+      //   featureVideo.play();
+      // },
+      // onLeaveBack: () => {
+      //   featureVideo.pause();
+      // }
     });
   }
 

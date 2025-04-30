@@ -205,6 +205,9 @@ document.addEventListener('DOMContentLoaded', function() {
         this.classList.add('active');
       }
     });
+    
+    // 초기 상태 설정 - 버튼에 active 클래스 추가하여 일시정지 상태로 표시
+    featurePlayBtn.classList.add('active');
   }
 
 });
